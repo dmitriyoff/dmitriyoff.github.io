@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+		<meta charset="UTF-8">
+        <title>DMITRIY_REMASTED</title>
+        <link rel="stylesheet" href="v2mk/css/bootstrap.css">
+        <link rel="stylesheet" href="v2mk/css/style.css">
+		<script src="v2mk/js/typed.min.js"></script>
+		<script src="v2mk/js/particles.min.js"></script>
+		<script src="../use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<link rel="icon" href="file/img/favicon.ico">		
+    </head>
+    <body oncontextmenu="return false">
+        <section id="home" class="home">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+						<div id="particles-js"></div>
+						<span id="mrkubulinks"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <input type="checkbox" id="nav-toggle" hidden>
+    <nav class="nav">
+        <label for="nav-toggle" class="nav-toggle" onclick></label>
+        <h2 class="logo"> 
+            <a href="/">DMITRIY_REMASTED</a> 
+        </h2>
+        <ul>
+            <li><a href="/">Скоро</a>
+        </ul>
+    </nav>
+		<script>
+			typed = new Typed("#mrkubulinks", {
+				strings: ['<div class="col-sm-12 ">\n<div class="main_home">\n<h1>DMITRIY_REMASTED</h1>\n<p class="subtitle">Добро пожаловать на сайт!</a></strong></p>\n</div>\n</div>\n<div class="col-sm-12" style="word-spacing: 7px; color: white;">\n<a href="https://github.com/dmitriyoff"><i style="font-size:2.5em;" class="fab fa-github"></i></a>\n<a href="http://steamcommunity.com/id/dmitriyremasted"><i style="font-size:2.5em;" class="fab fa-steam"></i></a>\n<a href="https://vk.com/novikovoff"><i style="font-size:2.5em;" class="fab fa-vk"></i></a>\n<a href="https://www.instagram.com/_jora_immortal_/?hl=ru"><i style="font-size:2.5em;" class="fab fa-instagram"></i></a>\n<ahref="https://discord.gg/5ZVrcBw"><i style="font-size:2.5em;" class="fab fa-discord"></i></a></div>\n'],				
+				typeSpeed: 60,
+				backSpeed: 20,
+				backDelay: 500,
+				startDelay: 1000,
+				loop: false
+			});
+		</script>
+		<script type="text/javascript">
+            $("#mmk > #mkk").typed({
+                strings: ["Добро пожаловать на сайт ","Посетите мой GitHub ","Посетите мой YouTube ","Узнавай новости в моём VK ","Играй у меня на сервере "],
+                typeSpeed: 50,
+                backSpeed: 50,
+                backDelay: 1000,
+                loop: true,
+            });
+        </script>
+		<script>
+			particlesJS("particles-js", {
+			  particles: {
+				number: { value: 60, density: { enable: true, value_area: 800 } },
+				color: { value: "#ffffff" },
+				shape: {
+				  type: "circle",
+				  stroke: { width: 0, color: "#000000" },
+				  polygon: { nb_sides: 5 },
+				  image: { src: "img/github.svg", width: 100, height: 100 }
+				},
+				opacity: {
+				  value: 1,
+				  random: true,
+				  anim: { enable: true, speed: 1, opacity_min: 0, sync: false }
+				},
+				size: {
+				  value: 3,
+				  random: true,
+				  anim: { enable: false, speed: 4, size_min: 0.3, sync: false }
+				},
+				line_linked: {
+				  enable: false,
+				  distance: 150,
+				  color: "#ffffff",
+				  opacity: 0.4,
+				  width: 1
+				},
+				move: {
+				  enable: true,
+				  speed: 1,
+				  direction: "none",
+				  random: true,
+				  straight: false,
+				  out_mode: "out",
+				  bounce: false,
+				  attract: { enable: false, rotateX: 600, rotateY: 600 }
+				}
+			  },
+			  interactivity: {
+				detect_on: "canvas",
+				events: {
+				  onhover: { enable: false, mode: "bubble" },
+				  onclick: { enable: false, mode: "repulse" },
+				  resize: true
+				},
+				modes: {
+				  grab: { distance: 400, line_linked: { opacity: 1 } },
+				  bubble: { distance: 250, size: 0, duration: 2, opacity: 0, speed: 3 },
+				  repulse: { distance: 400, duration: 0.4 },
+				  push: { particles_nb: 4 },
+				  remove: { particles_nb: 2 }
+				}
+			  },
+			  retina_detect: true
+			});
+		</script>
+    </body>
+
+</html>
